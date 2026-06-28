@@ -7,7 +7,7 @@ O treinamento é oferecido pelo **Laboratório de Engenharia Biológica (EngBio)
 <div align="center">
   <img src="imgs/logo iwasai 2.png" alt="Projeto IWASA'I" width="180" height="auto" style="margin: 10px;" />
   <img src="imgs/ufpa.png" alt="UFPA" width="230" height="auto" style="margin: 10px;" />
-  <img src="imgs/Logo - Colorida.png" alt="Laboratório EngBio" width="210" height="auto" style="margin: 10px;" />
+  <img src="imgs/Logo - Colorida.png" alt="Laboratório EngBio" width="220" height="auto" style="margin: 10px;" />
  
 </div>
 
