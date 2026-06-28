@@ -1,4 +1,4 @@
-# Módulo 05: Introdução ao Linux para Bioinformática – Da Linha de Comando ao Cluster de Alto Desempenho
+# Módulo 05: Introdução ao Linux para Bioinformática
 
 A fluência no ambiente Linux é a *sine qua non* para o bioinformata moderno. Diferentemente da biologia experimental, onde o fluxo de trabalho é frequentemente guiado por interfaces gráficas (GUI), a bioinformática computacional opera predominantemente em ambientes de linha de comando (CLI), por três razões fundamentais: (i) **escalabilidade** – scripts processam centenas de amostras de forma padronizada; (ii) **reprodutibilidade** – cada comando executado fica registrado no histórico; e (iii) **acesso a recursos computacionais** – servidores de alto desempenho (HPC) e nuvens computacionais são acessados exclusivamente via terminal.
 
