@@ -67,8 +67,7 @@ graph LR
     E --> F[Anotação<br>Prokka / Bakta]
     F --> G[Resultados<br>GFF / GBK / TSV]
 
-
-
+```
 
 ## Sobre o Projeto IWASA'I
 
