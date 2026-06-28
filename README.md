@@ -5,9 +5,9 @@ Este curso é uma iniciativa do **Projeto IWASA'I** – uma ação de treinament
 O treinamento é oferecido pelo **Laboratório de Engenharia Biológica (EngBio)** da **Universidade Federal do Pará (UFPA)**.
 
 <div align="center" style="display: flex; justify-content: center; align-items: center; gap: 20px; flex-wrap: wrap;">
-  <img src="imgs/logo iwasai 2.png" alt="Projeto IWASA'I" height="120" width="auto" style="margin: 10px;" />
-  <img src="imgs/ufpa.png" alt="UFPA" height="120" width="auto" style="margin: 10px;" />
-  <img src="imgs/Logo - Colorida.png" alt="Laboratório EngBio" height="120" width="auto" style="margin: 10px;" />
+  <img src="imgs/logo iwasai 2.png" alt="Projeto IWASA'I" style="max-height: 120px; max-width: 180px; margin: 10px;" />
+  <img src="imgs/ufpa.png" alt="UFPA" style="max-height: 120px; max-width: 180px; margin: 10px;" />
+  <img src="imgs/Logo - Colorida.png" alt="Laboratório EngBio" style="max-height: 120px; max-width: 180px; margin: 10px;" />
 </div>
 
 
