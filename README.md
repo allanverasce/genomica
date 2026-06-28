@@ -1,3 +1,17 @@
+## Sobre o Projeto IWASA'I
+
+Este curso é uma iniciativa do **Projeto IWASA'I** – uma ação de treinamento e capacitação em genômica e bioinformática voltada para a formação de pesquisadores na região amazônica. Esta inicitativa reflete o compromisso com a ciência aberta, a soberania tecnológica e a valorização da biodiversidade da Amazônia.
+
+O treinamento é oferecido pelo **Laboratório de Engenharia Biológica (EngBio)** da **Universidade Federal do Pará (UFPA)**.
+
+<div align="center">
+  <img src="imgs/logo iwasai 2.png" alt="Projeto IWASA'I" width="180" height="auto" style="margin: 10px;" />
+  <img src="imgs/ufpa.png" alt="UFPA" width="230" height="auto" style="margin: 10px;" />
+  <img src="imgs/Logo - Colorida.png" alt="Laboratório EngBio" width="210" height="auto" style="margin: 10px;" />
+ 
+</div>
+
+
 # Introdução à Genômica de Microrganismos
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
@@ -68,16 +82,3 @@ graph LR
     F --> G[Resultados<br>GFF / GBK / TSV]
 
 ```
-
-## Sobre o Projeto IWASA'I
-
-Este curso é uma iniciativa do **Projeto IWASA'I** – uma ação de treinamento e capacitação em genômica e bioinformática voltada para a formação de pesquisadores na região amazônica. Esta inicitativa reflete o compromisso com a ciência aberta, a soberania tecnológica e a valorização da biodiversidade da Amazônia.
-
-O treinamento é oferecido pelo **Laboratório de Engenharia Biológica (EngBio)** da **Universidade Federal do Pará (UFPA)**.
-
-<div align="center">
-  <img src="imgs/logo iwasai 2.png" alt="Projeto IWASA'I" width="180" height="auto" style="margin: 10px;" />
-  <img src="imgs/ufpa.png" alt="UFPA" width="200" height="auto" style="margin: 10px;" />
-  <img src="imgs/Logo - Colorida.png" alt="Laboratório EngBio" width="210" height="auto" style="margin: 10px;" />
- 
-</div>
