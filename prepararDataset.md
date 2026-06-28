@@ -165,7 +165,7 @@ export PATH=$(pwd)/sratoolkit.3.2.1-ubuntu64/bin:$PATH
 fastq-dump --version
 ```
 
-> 💡 **Dica**: Para tornar o `fastq-dump` disponível em todas as sessões do terminal, adicione a linha `export PATH=$PATH:/caminho/para/sratoolkit/bin` ao arquivo `~/.bashrc`.
+>  **Dica**: Para tornar o `fastq-dump` disponível em todas as sessões do terminal, adicione a linha `export PATH=$PATH:/caminho/para/sratoolkit/bin` ao arquivo `~/.bashrc`.
 
 ### 2.2. Baixando os dados
 
@@ -266,5 +266,5 @@ zgrep -c "^@" raw_data/SRR10461876_1.fastq.gz
 | **Simulados** (FASTA, FASTQ, GFF) | Treino de comandos, expressões regulares, scripts | Poucos KB | Script `generate_test_data.sh` |
 | **Reais** (SRR10461876) | Pipeline completo de montagem e anotação | ~200–300 MB cada | SRA Toolkit + `fastq-dump` |
 
-Agora você está pronto para iniciar o Módulo 0 com todos os dados necessários! 🚀
+Agora você está pronto para iniciar o Módulo 0 com todos os dados necessários! 
 ```
