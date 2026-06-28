@@ -1,6 +1,6 @@
 # Introdução à Genômica de Microrganismos
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![Bioinformatics](https://img.shields.io/badge/Bioinformatics-Pipeline-blue)](https://github.com/your-repo)
 
 Bem-vindo(a) ao repositório oficial do curso de **Introdução à Genômica de Microrganismos**. Este material foi desenvolvido para guiar estudantes e pesquisadores iniciantes através dos fundamentos da genômica, desde a extração do DNA até a interpretação biológica dos dados, utilizando ferramentas de bioinformática.
