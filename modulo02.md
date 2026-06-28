@@ -273,4 +273,3 @@ Para que uma montagem seja considerada de alta qualidade e apta para submissão 
    - Verifique a ausência de *bubbles* ou *dead‑ends* não resolvidos que possam indicar erros de montagem.
 
 Aprovado este *checklist*, os dados estão prontos para a etapa de **Anotação Genômica** (Módulo 3), onde transformaremos as sequências montadas em conhecimento funcional — identificando genes, vias metabólicas, fatores de virulência e elementos móveis.
-```
