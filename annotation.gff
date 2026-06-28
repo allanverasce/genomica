@@ -1,0 +1,6 @@
+##gff-version 3
+contig_1	Prodigal	CDS	105	978	.	+	0	ID=cds00001;product=hypothetical protein
+contig_1	Prodigal	CDS	1200	2100	.	-	0	ID=cds00002;product=DNA polymerase III subunit beta
+contig_2	Barrnap	rRNA	1	1500	.	+	.	ID=rRNA00001;product=16S ribosomal RNA
+contig_2	Prodigal	CDS	2000	3000	.	+	0	ID=cds00003;product=transposase
+contig_3	tRNAscan-SE	tRNA	100	180	.	+	.	ID=tRNA00001;product=tRNA-Leu
