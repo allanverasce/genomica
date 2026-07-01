@@ -139,12 +139,12 @@ O comando abaixo utiliza o **Trimmomatic** em modo *paired-end* (PE). Entenda ca
 TRIMMOMATIC_DIR=$(pwd)/Trimmomatic-0.39
 mkdir -p trimmed_reads
 
-java -jar ${TRIMMOMATIC_DIR}/trimmomatic-0.39.jar PE \
-raw_data/SRR10461876_1.fastq.gz raw_data/SRR10461876_2.fastq.gz \
-trimmed_reads/SRR10461876_1_paired.fastq.gz trimmed_reads/SRR10461876_1_unpaired.fastq.gz \
-trimmed_reads/SRR10461876_2_paired.fastq.gz trimmed_reads/SRR10461876_2_unpaired.fastq.gz \
-ILLUMINACLIP:${TRIMMOMATIC_DIR}/adapters/TruSeq3-PE.fa:2:30:10 \
-LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+trimmomatic PE -phred30 \
+  raw_data/SRR10461876_1.fastq.gz raw_data/SRR10461876_2.fastq.gz \
+  qc_raw/trimmed_reads/SRR10461876_1_paired.fastq.gz qc_raw/trimmed_reads/SRR10461876_1_unpaired.fastq.gz \
+  qc_raw/trimmed_reads/SRR10461876_2_paired.fastq.gz qc_raw/trimmed_reads/SRR10461876_2_unpaired.fastq.gz \
+  ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+
 ```
 
 | Parâmetro | Significado Matemático/Biológico | Valor adotado e justificativa |
