@@ -21,9 +21,12 @@ Em projetos de bioinformática, a heterogeneidade de dependências entre ferrame
 2.  **Instalação e configuração do Mamba** (substitui o Conda padrão por sua maior velocidade):
     ```bash
     # Baixar e instalar o Miniforge (que já inclui o mamba)
-    wget https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-x86_64.sh
+    wget [https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-x86_64.sh](https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-x86_64.sh)
     bash Miniforge3-Linux-x86_64.sh -b -p $HOME/miniforge3
-    export PATH="$HOME/miniforge3/bin:$PATH"
+    
+    # Inicializar o Conda/Mamba no terminal e atualizar a sessão
+    ~/miniforge3/bin/conda init bash
+    source ~/.bashrc
     ```
 
 3.  **Criação do ambiente específico para o curso** (evita conflitos com o sistema):
@@ -48,18 +51,33 @@ Os dados brutos de sequenciamento estão depositados no **Sequence Read Archive 
 
 ```bash
 # Download e descompactação do SRA Toolkit (versão estável mais recente)
-wget https://ftp.ncbi.nlm.nih.gov/sra/sdk/current/sratoolkit.current-ubuntu64.tar.gz
+wget [https://ftp.ncbi.nlm.nih.gov/sra/sdk/current/sratoolkit.current-ubuntu64.tar.gz](https://ftp.ncbi.nlm.nih.gov/sra/sdk/current/sratoolkit.current-ubuntu64.tar.gz)
 tar -xzf sratoolkit.current-ubuntu64.tar.gz
-export PATH=$(pwd)/sratoolkit.3.2.1-ubuntu64/bin:$PATH
+```
+
+# Adiciona os executáveis da versão baixada ao PATH do sistema
+```bash
+export PATH=$HOME/sratoolkit.*/bin:$PATH
+```
+
+# Configuração obrigatória inicial (necessária uma única vez para liberar downloads externos)
+# Na tela interativa que se abrir, pressione 'x' e depois confirme para salvar e sair
+```bash
+vdb-config --interactive
+```
 
 # Organização dos dados (estrutura de diretórios)
+```bash
 mkdir -p raw_data
 cd raw_data
+```
 
 # Download dos reads paired-end com compressão integrada (--gzip)
+```bash
 fastq-dump --split-files --gzip SRR10461876
 cd ..
 ```
+
 **Detalhamento técnico dos *flags***:
 - `--split-files`: Obrigatório para dados *paired-end*. Gera dois arquivos: `_1.fastq.gz` (forward) e `_2.fastq.gz` (reverse).
 - `--gzip`: Compacta os arquivos em tempo real, economizando ~70% de espaço em disco, sendo uma prática padrão em *pipelines* produtivos.
