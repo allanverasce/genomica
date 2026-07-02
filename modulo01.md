@@ -139,11 +139,12 @@ O comando abaixo utiliza o **Trimmomatic** em modo *paired-end* (PE). Entenda ca
 TRIMMOMATIC_DIR=$(pwd)/Trimmomatic-0.39
 mkdir -p trimmed_reads
 
-trimmomatic PE -phred30 \
+trimmomatic PE -phred33 \
   raw_data/SRR10461876_1.fastq.gz raw_data/SRR10461876_2.fastq.gz \
   qc_raw/trimmed_reads/SRR10461876_1_paired.fastq.gz qc_raw/trimmed_reads/SRR10461876_1_unpaired.fastq.gz \
   qc_raw/trimmed_reads/SRR10461876_2_paired.fastq.gz qc_raw/trimmed_reads/SRR10461876_2_unpaired.fastq.gz \
   ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+
 
 ```
 
