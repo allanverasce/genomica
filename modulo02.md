@@ -23,7 +23,7 @@ A figura abaixo sintetiza o fluxo completo da montagem *de novo*: desde a corre�
 
 ```bash
 # Instalação via gerenciador de pacotes do sistema
-sudo apt install -y spades
+conda install bioconda::spades
 
 # Criação do diretório para armazenar os resultados da montagem
 mkdir assembly
